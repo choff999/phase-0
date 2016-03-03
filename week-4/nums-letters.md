@@ -9,11 +9,11 @@ Floats can be divided into fractions while integers cannot. For example, say I h
 
 *Hours in a year*
 ``` ruby
-p 365*24
+puts 365*24
 ```
 
 *Minutes in a decade*
 ``` ruby
-p 24*60*365*10
+puts 24*60*365*10
 ```
 
