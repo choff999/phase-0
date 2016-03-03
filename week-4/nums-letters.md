@@ -35,6 +35,7 @@ Local variables begin with a lowercase letter or underscore. A few  examples tha
 ### How was this challenge? Did you get a good review of some of the basics?
 I really enjoyed this challenge because I felt like it was within my scope of capabilities and was not overwhelming. I went to codecademy.com and went back through the ruby lessons to help refresh my memory.
 
-[Basic Math](./basic-math.rb)
 [Defining Variables](./defining-variables.rb)
 [Simple String](./simple-string.rb)
+[Basic Math](./basic-math.rb)
+
