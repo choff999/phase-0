@@ -17,3 +17,24 @@ puts 365*24
 puts 24*60*365*10
 ```
 
+### How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+Ruby handles basic math the way you would expect it, except that if its an integer than it will round down and will not give you a fraction in you ask for a quotient. If its a float than the decimal will be outputted.
+
+### What is the difference between integers and floats?
+I discussed this above when I described integers and floats, the main difference is a float will give you a decimal answer whereas an integer will round down. 
+
+### What is the difference between integer and float division?
+Answered above
+
+### What are strings? Why and when would you use them?
+A string is a kind of variable where you set a name equal to a value (can be number or words). You use strings for anything other than basic math.
+
+### What are local variables? Why and when would you use them?
+Local variables begin with a lowercase letter or underscore. A few  examples that are commonly used are class, def,  and module. Unlike global or instance variables, local variables do not have the value nil before solving. When you type a local variable it is like a declaration, if the variable is an uninitialized local variable the program will give you an error output because it will not know what it should be looking at. If its a defined local variable than a description of the identifier will be outputted. Local variables act as nickname for a string or float, so that if you had a data base with a bunch of data and another one with even more data, you could set the local variable to add "database_1" + "database_2" instead of having to add all the numbers individually. 
+
+### How was this challenge? Did you get a good review of some of the basics?
+I really enjoyed this challenge because I felt like it was within my scope of capabilities and was not overwhelming. I went to codecademy.com and went back through the ruby lessons to help refresh my memory.
+
+[Basic Math](./basic-math.rb)
+[Defining Variables](./defining-variables.rb)
+[Simple String](./simple-string.rb)
