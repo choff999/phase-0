@@ -1,23 +1,22 @@
 require_relative "my_solution"
 
-describe 'leap_year?' do
+describe 'get_grade' do
   it 'is defined as a method' do
-    expect(defined?(leap_year?)).to eq 'method'
+    expect(defined?(get_grade)).to eq 'method'
   end
-
-  it 'returns true for years divisible by 4 and not by 100' do
-    expect(leap_year?(4)).to be true
+  it 'returns "A" when the average is >= 90' do
+    expect(get_grade(90)).to eq "A"
   end
-
-  it 'returns true for years divisible by 400' do
-    expect(leap_year?(400)).to be true
+  it 'returns "B" when the average is >= 80' do
+    expect(get_grade(88)).to eq "B"
   end
-
-  it 'returns false for years divisible by 4 and by 100 but not by 400' do
-    expect(leap_year?(100)).to be false
+  it 'returns "C" when the average is >= 70' do
+    expect(get_grade(72)).to eq "C"
   end
-
-  it 'returns false for years not divisible by 4' do
-    expect(leap_year?(3)).to be false
+  it 'returns "D" when the average is >= 60' do
+    expect(get_grade(66)).to eq "D"
+  end
+  it 'returns "F" when the average is < 60' do
+    expect(get_grade(50)).to eq "F"
   end
 end
