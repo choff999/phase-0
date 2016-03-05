@@ -1,0 +1,32 @@
+header {
+  background-color: red;
+  
+  font-family: Verdana;
+  
+}
+
+div.image {
+   content:url(https://octodex.github.com/images/snowoctocat.png);
+   width:100px;
+}
+.column-1 {
+  h2: Arial;
+  background-color: blue;
+  float:left;
+  width:50%;
+}
+.column-1 p { font: italic bold 12px/30px Georgia, serif;
+}
+.column-2 {
+  background-color: green;
+  float:right;
+  width: 50%;
+ p {font: italic bold 12px/30px Georgia, serif;
+}
+}
+
+footer{
+  background-color:grey;
+  clear:both;
+  font-family: Verdana;
+}
