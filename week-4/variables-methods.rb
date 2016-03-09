@@ -49,3 +49,19 @@ describe 'Favorite_number' do
   it "is an integer" do
     expect(Favorite_number).to be_a Fixnum
   end
+
+#How do you define a local variable?
+#Local variables begin with a lowercase letter or underscore. A few examples that are commonly used are class, def, and module. Unlike global or instance variables, local variables do not have the value nil before solving. When you type a local variable it is like a declaration, if the variable is an uninitialized local variable the program will give you an error output because it will not know what it should be looking at. If its a defined local variable than a description of the identifier will be outputted. Local variables act as nickname for a string or float, so that if you had a data base with a bunch of data and another one with even more data, you could set the local variable to add "database_1" + "database_2" instead of having to add all the numbers individually.
+#How do you define a method?
+#Start with def, add a space, open parantheses, place arguments within the parantheses separated by a comma and then a space, and make sure to close parantheses.
+#What is the difference between a local variable and a method?
+#A local variable is an object that is to be acted upon while the method is the action that will happen to the object.
+#How do you run a ruby program from the command line?
+#ruby name_of_program.rb
+#How do you run an RSpec file from the command line?
+#rspec name_of_rspec.rb
+#What was confusing about this material? What made sense?
+#I had some issues with deciphering exactly what was required of me but the actual program writing was not nearly as challenging as I thought it would be.
+#https://github.com/choff999/phase-0/tree/4.3/week-4/address
+#https://github.com/choff999/phase-0/blob/4.3/week-4/define-method/my_solution.rb
+#https://github.com/choff999/phase-0/tree/4.3/week-4/math
