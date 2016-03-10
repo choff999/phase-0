@@ -37,7 +37,7 @@ p separate_comma(200)
 
 
 # 3. Reflection
-What was your process for breaking the problem down? What different approaches did you consider?
+#What was your process for breaking the problem down? What different approaches did you consider?
 #I basically created my code based off of the question in order of requirements. I needed the comma-less positive integer to be converted to a string, add commas where they need to go, and then the string needed to be recombined. I thought of using an if/else statements based off chapter 6 of Well Grounded Rubyist but I could not figure out how to do this. I did some research on stackoverflow.com and I got the idea to break up the string and then reverse the pieces so that the counting for where to add a comma would be from the first piece and then use the .join to add everything back together, which would have to be reversed again to get the correct number. 
 #Was your pseudocode effective in helping you build a successful initial solution?
 #Yes, it helps to separate the problem into steps and then address them one at a time. 
