@@ -33,7 +33,7 @@ def my_hash_modification_method!(source, thing_to_modify)
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#I decided to use the command collect to iterate through the array.
+#I decided to use the command 'collect' to iterate through the array.
 #I added '!' so the command would be destructive.
 #I used 'is_a?' to check if each element is an integer.
 #The method returns true if the element is an integer, so I added 'things_to_modify'.
