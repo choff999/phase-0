@@ -1,8 +1,8 @@
 # Pad an Array
 
-# I worked on this challenge with: Parker
+# I worked on this challenge with: Parker Smathers
 
-# I spent [] hours on this challenge.
+# I spent [1] hours on this challenge.
 
 
 # Complete each step below according to the challenge directions and
