@@ -70,3 +70,10 @@ startup_names.each { |x|
     p x + "ly"
   end
   }
+#   Reflection
+#   What are some general rules you can apply to nested arrays?
+#   Arrays assign numbers to each element starting with 0. So if you have a nested array you need to work your way inside with each array.
+# What are some ways you can iterate over nested arrays?
+# You need to set up loops based off of the nestled arrays, so the lopps will need to be nested as well, so that the program knows exactly which element to output.
+# Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+# I had used if/else statements before but had never used .is_a? which my partner suggested for the last two statements. 
