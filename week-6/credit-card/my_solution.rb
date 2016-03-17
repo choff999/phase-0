@@ -2,8 +2,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge [with: Dexter Moran].
+# I spent [1.5] hours on this challenge.
 
 # Pseudocode
 
@@ -93,3 +93,9 @@ p goodcard.check_card
 
 
 # Reflection
+# What was the most difficult part of this challenge for you and your pair?
+# For me personally my initialize section was the most difficult to understand, my partner mainly wrote it and I had to have him explain it. We also ran into some issues with sum statement when we separated the numbers, at first we just separated them into individual arrays but then we decided to use .flatten which I had seen before on Stack Overflow but never used.
+# What new methods did you find to help you when you refactored?
+# We did not refactor since we were able to make the original solution work and it was readable.
+# What concepts or learnings were you able to solidify in this challenge?
+# I feel like I really understand how class works and how each method affects the code. My partner also suggested using counter for the doubling section which I had not tried and even though it was a bit lengthlier than using .each it made more sense to us as beginners to break it out like that.
