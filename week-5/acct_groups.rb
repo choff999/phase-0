@@ -23,4 +23,17 @@ def split(group)
 		return group.shuffle.each_slice(5).to_a
 	end
 end
-p split(NY_group)
+p split(NY_group
+
+
+# #Reflection
+# What was the most interesting and most difficult part of this challenge?
+# Writing the pseudocode was the most interesting part while I found writing the actual code the most difficult. 
+# Do you feel you are improving in your ability to write pseudocode and break the problem down?
+# Yes I feel that my psuedocode writing skills have really improved and it helps me solidify everything I am learning. A lot of the methods I use I do not fully undersand what they do so writing psuedocode helps me connect exactly what I want to solve and how the methods work that will do that.
+# Was your approach for automating this task a good solution? What could have made it even better?
+# I am confused about this assignment and not completely sure if I got the correct output. I think I should have asked from help from my instructor to help me with a solution that makes the most sense.
+# What data structure did you decide to store the accountability groups in and why?
+# I decided to use an array because it was complicated enough for using a hash.
+# What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+# I decided not to refactor my solution because I needed outside help and was unable to attend office hours to get that help. Well it was the first time I used these methods together outside of codecademy.com lessons.
