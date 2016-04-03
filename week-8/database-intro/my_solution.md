@@ -1,4 +1,4 @@
-**Release 5**
+# Release 5
 1. SELECT * FROM states;
 2. SELECT * FROM regions;
 3. SELECT state_name,population FROM states;
@@ -10,9 +10,10 @@
 9. SELECT region_name FROM regions WHERE region_name LIKE '%CENTRAL';
 10. SELECT regions.region_name, states.state_name FROM states INNER JOIN regions ORDER BY region_id ASC;
 
-**Release 6**
+## Release 6
 ![Alt text](wireframe.png?raw=true "Schema_Wireframe")
-**Reflection**
+
+### Reflection
 What are databases for?
 Databases store extremely large amounts of information in the form of easily accessed and handled tables.
 What is a one-to-many relationship?
